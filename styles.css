@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.header {
+    background-color: #f83737; /* Cor de fundo vermelha */
+    padding: 20px 0; /* Espaçamento interno */
+    text-align: center;
+    border-bottom: 3px solid #c62e2e; /* Borda inferior vermelha */
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte estilizada */
+    font-size: 36px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    color: #fff; /* Cor do texto branca */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+}
+
+.header img {
+    width: 40px; /* Tamanho do ícone */
+    vertical-align: middle; /* Alinhar verticalmente com o texto */
+    margin-right: 10px; /* Espaçamento à direita do ícone */
+}
+
+
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.section {
+    background-color: #f8f8f8; /* Cor de fundo */
+    padding: 40px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: center; /* Centralizar texto */
+}
+
+.section-content {
+    max-width: 800px; /* Largura máxima */
+    margin: 0 auto; /* Centralizar na página */
+}
+
+.section h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte estilizada */
+    font-size: 32px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    color: #333333; /* Cor do texto */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+.section p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte estilizada */
+    font-size: 18px; /* Tamanho da fonte */
+    line-height: 1.6; /* Altura da linha */
+    color: #666666; /* Cor do texto */
+    margin-bottom: 15px; /* Espaçamento inferior */
+}
+
+
+#call-to-action {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #ff6666;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #ff4d4d;
+}
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+#medidas {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.medidas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.medida {
+    width: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.medida:hover {
+    transform: translateY(-5px);
+}
+
+.medida img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.medida p {
+    font-size: 16px;
+    color: #555;
+}
+
+
+/* Estilo para escurecer a página */
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color 0.5s;
+}
+
+/* Estilo para mudar a cor do botão quando clicado */
+.button-clicked {
+    background-color: #ff4d4d !important; /* Cor vermelha mais escura */
+    transition: background-color 0.5s;
+}
+
+#mais-informacoes {
+    text-align: center;
+}
+
+#mais-informacoes .section-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
